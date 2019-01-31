@@ -33,6 +33,9 @@ const serializers = {
     },
     slideshow (props) {
       return <Slideshow {...props.node} />
+    },
+    tslider (props) {
+      return <pre><code>{JSON.stringify(props, null, 2)}</code></pre>
     }
   }
 }
